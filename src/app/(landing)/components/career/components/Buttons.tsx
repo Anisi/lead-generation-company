@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 function Buttons() {
   return (
-    <Stack $direction="horizontal" $mobileDirection="vertical" $gap="24px">
+    <Stack $direction="horizontal" $gap="24px" $mobileGap="16px">
       <Link href="#">
         <Button $color="primary">مشاوره میخوام</Button>
       </Link>

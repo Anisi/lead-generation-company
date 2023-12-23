@@ -18,6 +18,11 @@ const Button = styled.button<{
         : '#FFFFFF'};
   border: ${(props) => (props.$outline ? '1px solid #FFFFFF' : 'none')};
   color: #ffffff;
+
+  @media (max-width: 992px) {
+    min-height: 43px;
+    min-width: 140px;
+  }
 `;
 
 export default Button;
