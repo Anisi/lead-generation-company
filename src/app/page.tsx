@@ -1,12 +1,12 @@
 'use client';
 
-import Main from '@/app/(landing)/components/Main';
-import { Career } from '@/app/(landing)/components/sections/career/Career';
-import { ClientsSection } from '@/app/(landing)/components/sections/clients';
-import { Footer } from '@/app/(landing)/components/sections/footer';
-import { HeaderSection } from '@/app/(landing)/components/sections/header';
-import { IntroductionSection } from '@/app/(landing)/components/sections/introduction';
-import { ServicesSection } from '@/app/(landing)/components/sections/services';
+import { ClientsSection } from '@/app/(landing)/components/clients';
+import { Footer } from '@/app/(landing)/components/footer';
+import { HeaderSection } from '@/app/(landing)/components/header';
+import { IntroductionSection } from '@/app/(landing)/components/introduction';
+import { ServicesSection } from '@/app/(landing)/components/services';
+import Main from '@/app/components/Main';
+import { Career } from '@/app/(landing)/components/career/Career';
 
 export default function Home() {
   return (

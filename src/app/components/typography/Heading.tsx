@@ -6,9 +6,4 @@ export const Heading = styled(Typography)<{
   $fontSize?: number;
 }>`
   font-weight: ${({ as }) => (['h1', 'h2'].includes(as) ? 700 : 400)};
-  font-size: ${({ $fontSize }) => $fontSize ?? 1}em;
-  @media (width <= 360px) {
-    font-size: ${({ $fontSize }) => ($fontSize ? $fontSize * 0.57 : 1)}em;
-  }
-  color: ${({ $color }) => $color};
 `;
