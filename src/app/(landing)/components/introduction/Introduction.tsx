@@ -1,9 +1,9 @@
 import IntroductionVideoPlaceholder from '@/../public/images/introduction-video-placeholder.jpg';
-import Container from '@/app/components/Container';
-import Section from '@/app/components/Section';
 import Inner from '@/app/(landing)/components/introduction/components/Inner';
 import List from '@/app/(landing)/components/introduction/components/List';
 import ListItem from '@/app/(landing)/components/introduction/components/ListItem';
+import Container from '@/app/components/Container';
+import Section from '@/app/components/Section';
 import Stack from '@/app/components/Stack';
 import { Heading } from '@/app/components/typography';
 import Image from 'next/image';

@@ -1,10 +1,10 @@
-import Container from '@/app/components/Container';
-import Section from '@/app/components/Section';
 import {
   Header,
   TestimonialList,
 } from '@/app/(landing)/components/clients/components';
 import { ClientLogoList } from '@/app/(landing)/components/clients/components/client-logos/ClientLogoList';
+import Container from '@/app/components/Container';
+import Section from '@/app/components/Section';
 import Stack from '@/app/components/Stack';
 
 export function Clients() {

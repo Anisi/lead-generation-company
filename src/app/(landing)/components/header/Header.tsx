@@ -1,9 +1,9 @@
 import bgImage from '@/../public/images/header-bg.jpg';
-import Container from '@/app/components/Container';
-import Section from '@/app/components/Section';
 import Buttons from '@/app/(landing)/components/header/components/Buttons';
 import Jumbotron from '@/app/(landing)/components/header/components/Jumbotron';
 import Logo from '@/app/(landing)/components/header/components/Logo';
+import Container from '@/app/components/Container';
+import Section from '@/app/components/Section';
 import Stack from '@/app/components/Stack';
 
 export function Header() {
