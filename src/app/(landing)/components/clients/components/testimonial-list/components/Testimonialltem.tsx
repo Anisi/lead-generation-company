@@ -1,7 +1,7 @@
 import Card from '@/app/components/Card';
 import styled from 'styled-components';
 
-const TestimonialItem = styled(Card)`
+const TestimonialItem = styled(Card).attrs({ as: 'article' })`
   padding: 56px;
   border-radius: 16px;
   align-items: flex-start;
